@@ -25,6 +25,12 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Replace with your cool font */
+  }
   
   main {
     padding: 20px;

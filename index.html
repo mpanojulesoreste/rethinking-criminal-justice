@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>Reimagine Justice</title>
+  <script src="mapdata.js"></script>
+  <script src="usmap.js"></script>
   <!-- Link Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -13,10 +15,14 @@
     <!-- Use Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
+        <!-- Logo as Text with Cool Font -->
+        <a class="navbar-brand logo" href="#">Reimagine Justice</a>
+
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Get Involved</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
         </ul>
       </div>
     </nav>
@@ -27,18 +33,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <!-- United States Map will be inserted here -->
-          <div class="map" id="usMap">
-            Clickable Map Content
-          </div>
+          <h1>Track Police Spendings and Alternatives</h1>
+			         <div style="max-width: 700px"> <!-- Keep map above fold -->
+				         <div id="map"></div>
+			            </div>
         </div>
         <div class="col-lg-6">
           <!-- Quote Section -->
           <div class="quote">
             <blockquote>
-              "Be the change that you wish to see in the world."
+              "Rather, viral Justice requires each of us to demand that the money normally invested in policing be reinvested in what we actually need to sustain us:: mental health services, better education, better healthcare, homes."
             </blockquote>
-            <cite>- Mahatma Gandhi</cite>
+            <cite>- Ruha Benjamin</cite>
           </div>
         </div>
       </div>
@@ -48,7 +54,7 @@
   <footer>
     <!-- Use Bootstrap Footer -->
     <div class="container">
-      <p>&copy; 2023 My Website. All rights reserved.</p>
+      <p>&copy; 2023 Reimagine Justice. All rights reserved.</p>
     </div>
   </footer>
 
