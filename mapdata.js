@@ -65,7 +65,7 @@ var simplemaps_usmap_mapdata={
 		div: "map",
     auto_load: "yes",
     rotate: "0",
-    url_new_tab: "yes",
+    url_new_tab: "no",
     images_directory: "default",
     import_labels: "no",
     fade_time: 0.1,
@@ -91,7 +91,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "Florida/florida.html",
       inactive: "no"
     },
     NH: {

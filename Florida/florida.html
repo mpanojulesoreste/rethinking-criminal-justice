@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Reimagine Justice is a website that allows you to track police spendings and alternatives.">
-  <meta author="Jules Mpano">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reimagine Justice</title>
   <script src="mapdata.js"></script>
@@ -34,26 +32,29 @@
     <!-- Use Bootstrap Container for responsive content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <h1>Track Police Spendings and Alternatives</h1>
-			         <div style="max-width: 700px"> <!-- Keep map above fold -->
-				         <div id="map"></div>
-			            </div>
-        </div>
-        <div class="col-lg-6">
-          <!-- Quote Section -->
-          <div class="quote">
-            <blockquote>
-              "Rather, viral Justice requires each of us to demand that the money normally invested in policing be reinvested in what we actually need to sustain us:: mental health services, better education, better healthcare, homes."
-            </blockquote>
-            <cite>- Ruha Benjamin</cite>
-          </div>
-        </div>
+        <section id="preview" class="preview section-margin-b-m">
+            <h2 style="text-align: center;">Florida</h2>
+            <div class="preview__content">
+              <!-- start Fla-shop.com HTML5 Map -->
+              <div id='map-container' style="max-width: 700px"></div>
+              <link href="map.css" rel="stylesheet">
+              <script src="raphael.min.js"></script>
+              <script src="settings.js"></script>
+              <script src="paths.js"></script>
+              <script src="map.js"></script>
+              <script>
+              map_cfg.mapWidth = 100;
+              var map = new FlaMap(map_cfg);
+              map.drawOnDomReady('map-container');
+              </script>
+            </div>
+            <!-- end HTML5 Map -->
+          </section>
       </div>
     </div>
   </main>
 
-  <footer class="footer">
+  <footer>
     <!-- Use Bootstrap Footer -->
     <div class="container">
       <p>&copy; 2023 Reimagine Justice. All rights reserved.</p>
