@@ -77,14 +77,14 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Hawaii/hawaii.html",
     },
     AK: {
       name: "Alaska",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Alaska/alaska.html",
     },
     FL: {
       name: "Florida",
@@ -99,21 +99,21 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "New Hampshire/new-hampshire.html",
     },
     VT: {
       name: "Vermont",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Vermont/vermont.html",
     },
     ME: {
       name: "Maine",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Maine/maine.html",
     },
     RI: {
       name: "Rhode Island",
@@ -141,7 +141,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "New Jersey/new-jersey.html",
     },
     DE: {
       name: "Delaware",
@@ -474,21 +474,14 @@ var simplemaps_usmap_mapdata={
   },
   locations: {
     "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
+      name: "Princeton University",
+      lat: 40.337833,
+      lng: -74.656802,
+      description: "My Location",
       color: "default",
       url: "default",
-      type: "default",
+      type: "circle",
       size: "default"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
     }
   },
   labels: {
