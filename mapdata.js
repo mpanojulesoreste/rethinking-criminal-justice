@@ -7,7 +7,7 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
 		//State defaults
-		state_description: "State description",
+		state_description: "The content for this state is under development.",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
     state_url: "https://simplemaps.com",
@@ -120,21 +120,21 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Rhode Island/rhode-island.html",
     },
     NY: {
       name: "New York",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "New York/new-york.html",
     },
     PA: {
       name: "Pennsylvania",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "pennsylvania/pennsylvania.html",
     },
     NJ: {
       name: "New Jersey",
@@ -148,35 +148,35 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Delaware/delaware.html",
     },
     MD: {
       name: "Maryland",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Maryland/maryland.html",
     },
     VA: {
       name: "Virginia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Virginia/virginia.html",
     },
     WV: {
       name: "West Virginia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "West Virginia/west-virginia.html",
     },
     OH: {
       name: "Ohio",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Ohio/ohio.html",
     },
     IN: {
       name: "Indiana",

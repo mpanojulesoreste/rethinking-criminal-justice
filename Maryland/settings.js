@@ -1,6 +1,6 @@
 var map_cfg = {
     "mapWidth": "100%",
-    "mapHeight": 550,
+    "mapHeight": 395,
     
     "shadowWidth": 2,
     "shadowOpacity": 0.2,
@@ -39,13 +39,13 @@ var map_cfg = {
     "tooltipOnHighlightIn": false,
     "freezeTooltipOnClick": false,
     
-    "mapId": "83kFT",
+    "mapId": "83kFS",
     
     "map_data": {
     "st1": {
         "id": 1,
-        "name": "Androscoggin",
-        "shortname": "Androscoggin",
+        "name": "Allegany",
+        "shortname": "Allegany",
         "link": "",
         "comment": "",
         "image": "",
@@ -54,8 +54,8 @@ var map_cfg = {
     },
     "st2": {
         "id": 2,
-        "name": "Aroostook",
-        "shortname": "Aroostook",
+        "name": "Anne Arundel",
+        "shortname": "Anne Arundel",
         "link": "",
         "comment": "",
         "image": "",
@@ -64,8 +64,8 @@ var map_cfg = {
     },
     "st3": {
         "id": 3,
-        "name": "Cumberland",
-        "shortname": "Cumberland",
+        "name": "Baltimore",
+        "shortname": "Baltimore",
         "link": "",
         "comment": "",
         "image": "",
@@ -74,8 +74,8 @@ var map_cfg = {
     },
     "st4": {
         "id": 4,
-        "name": "Franklin",
-        "shortname": "Franklin",
+        "name": "Baltimore City",
+        "shortname": "Baltimore City",
         "link": "",
         "comment": "",
         "image": "",
@@ -84,8 +84,8 @@ var map_cfg = {
     },
     "st5": {
         "id": 5,
-        "name": "Hancock",
-        "shortname": "Hancock",
+        "name": "Calvert",
+        "shortname": "Calvert",
         "link": "",
         "comment": "",
         "image": "",
@@ -94,8 +94,8 @@ var map_cfg = {
     },
     "st6": {
         "id": 6,
-        "name": "Kennebec",
-        "shortname": "Kennebec",
+        "name": "Caroline",
+        "shortname": "Caroline",
         "link": "",
         "comment": "",
         "image": "",
@@ -104,8 +104,8 @@ var map_cfg = {
     },
     "st7": {
         "id": 7,
-        "name": "Knox",
-        "shortname": "Knox",
+        "name": "Carroll",
+        "shortname": "Carroll",
         "link": "",
         "comment": "",
         "image": "",
@@ -114,8 +114,8 @@ var map_cfg = {
     },
     "st8": {
         "id": 8,
-        "name": "Lincoln",
-        "shortname": "Lincoln",
+        "name": "Cecil",
+        "shortname": "Cecil",
         "link": "",
         "comment": "",
         "image": "",
@@ -124,8 +124,8 @@ var map_cfg = {
     },
     "st9": {
         "id": 9,
-        "name": "Oxford",
-        "shortname": "Oxford",
+        "name": "Charles",
+        "shortname": "Charles",
         "link": "",
         "comment": "",
         "image": "",
@@ -134,8 +134,8 @@ var map_cfg = {
     },
     "st10": {
         "id": 10,
-        "name": "Penobscot",
-        "shortname": "Penobscot",
+        "name": "Dorchester",
+        "shortname": "Dorchester",
         "link": "",
         "comment": "",
         "image": "",
@@ -144,8 +144,8 @@ var map_cfg = {
     },
     "st11": {
         "id": 11,
-        "name": "Piscataquis",
-        "shortname": "Piscataquis",
+        "name": "Frederick",
+        "shortname": "Frederick",
         "link": "",
         "comment": "",
         "image": "",
@@ -154,8 +154,8 @@ var map_cfg = {
     },
     "st12": {
         "id": 12,
-        "name": "Sagadahoc",
-        "shortname": "Sagadahoc",
+        "name": "Garrett",
+        "shortname": "Garrett",
         "link": "",
         "comment": "",
         "image": "",
@@ -164,8 +164,8 @@ var map_cfg = {
     },
     "st13": {
         "id": 13,
-        "name": "Somerset",
-        "shortname": "Somerset",
+        "name": "Harford",
+        "shortname": "Harford",
         "link": "",
         "comment": "",
         "image": "",
@@ -174,8 +174,8 @@ var map_cfg = {
     },
     "st14": {
         "id": 14,
-        "name": "Waldo",
-        "shortname": "Waldo",
+        "name": "Howard",
+        "shortname": "Howard",
         "link": "",
         "comment": "",
         "image": "",
@@ -184,8 +184,8 @@ var map_cfg = {
     },
     "st15": {
         "id": 15,
-        "name": "Washington",
-        "shortname": "Washington",
+        "name": "Kent",
+        "shortname": "Kent",
         "link": "",
         "comment": "",
         "image": "",
@@ -194,8 +194,88 @@ var map_cfg = {
     },
     "st16": {
         "id": 16,
-        "name": "York",
-        "shortname": "York",
+        "name": "Montgomery",
+        "shortname": "Montgomery",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st17": {
+        "id": 17,
+        "name": "Prince George's",
+        "shortname": "Prince George's",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st18": {
+        "id": 18,
+        "name": "Queen Anne's",
+        "shortname": "Queen Anne's",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st19": {
+        "id": 19,
+        "name": "Somerset",
+        "shortname": "Somerset",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st20": {
+        "id": 20,
+        "name": "St.Mary's",
+        "shortname": "St.Mary's",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st21": {
+        "id": 21,
+        "name": "Talbot",
+        "shortname": "Talbot",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st22": {
+        "id": 22,
+        "name": "Washington",
+        "shortname": "Washington",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st23": {
+        "id": 23,
+        "name": "Wicomico",
+        "shortname": "Wicomico",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7798bb",
+        "color_map_over": "#366CA3"
+    },
+    "st24": {
+        "id": 24,
+        "name": "Worchester",
+        "shortname": "Worchester",
         "link": "",
         "comment": "",
         "image": "",
