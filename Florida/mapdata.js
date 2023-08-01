@@ -8,7 +8,7 @@ var simplemaps_statemap_mapdata={
     
 		//State defaults
 		state_description: "State description",
-    state_color: "#88A4BC",
+    state_color: "#003366",
     state_hover_color: "#3B729F",
     state_url: "https://simplemaps.com",
     border_size: 1.5,
@@ -33,7 +33,7 @@ var simplemaps_statemap_mapdata={
 		//Label defaults
 		label_color: "#ffffff",
     label_hover_color: "#ffffff",
-    label_size: 22,
+    label_size: 15,
     label_font: "Arial",
     hide_labels: "no",
     hide_eastern_labels: false,
@@ -66,7 +66,7 @@ var simplemaps_statemap_mapdata={
 		div: "map",
     auto_load: "yes",
     rotate: "0",
-    url_new_tab: "yes",
+    url_new_tab: "no",
     images_directory: "default",
     import_labels: "no",
     fade_time: 0.1,
@@ -428,7 +428,7 @@ var simplemaps_statemap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Pasco/single.html"
     },
     "12103": {
       name: "Pinellas",
@@ -543,12 +543,15 @@ var simplemaps_statemap_mapdata={
       url: "default"
     }
   },
-  locations: {
-    "0": {
-      name: "Example",
-      lat: 27.654028666666665,
-      lng: -83.70642366666668
-    }
-  },
-  labels: {}
+  labels: {
+    12101: {
+      parent_id: "12101",
+      name: "Pasco",  
+      x: "670",
+      y: "420",
+      pill: "no",
+      width: 0,
+      display: "all"
+    },
+  }
 };
