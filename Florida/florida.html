@@ -6,7 +6,7 @@
   <meta author="Jules Mpano">
   <title>Reimagine Justice</title>
   <script src="mapdata.js"></script>
-  <script src="usmap.js"></script>
+  <script src="statemap.js"></script>
   <!-- Link Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -33,24 +33,21 @@
     <!-- Use Bootstrap Container for responsive content -->
     <div class="container">
       <div class="row">
-        <section id="preview" class="preview section-margin-b-m">
-            <h2 style="text-align: center;">Florida</h2>
-            <div class="preview__content">
-              <!-- start Fla-shop.com HTML5 Map -->
-              <div id='map-container' style="max-width: 700px"></div>
-              <link href="map.css" rel="stylesheet">
-              <script src="raphael.min.js"></script>
-              <script src="settings.js"></script>
-              <script src="paths.js"></script>
-              <script src="map.js"></script>
-              <script>
-              map_cfg.mapWidth = 100;
-              var map = new FlaMap(map_cfg);
-              map.drawOnDomReady('map-container');
-              </script>
-            </div>
-            <!-- end HTML5 Map -->
-          </section>
+        <div class="col-lg-6">
+          <h2 style="text-align: center;">Florida</h2>
+			         <div style="max-width: 700px"> <!-- Keep map above fold -->
+				         <div id="map"></div>
+			            </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Quote Section -->
+          <div class="quote">
+            <blockquote>
+              "Rather, viral Justice requires each of us to demand that the money normally invested in policing be reinvested in what we actually need to sustain us: mental health services, better education, better healthcare, homes."
+            </blockquote>
+            <cite>- Ruha Benjamin</cite>
+          </div>
+        </div>
       </div>
     </div>
   </main>
