@@ -10,7 +10,7 @@ var simplemaps_usmap_mapdata={
 		state_description: "The content for this state is under development.",
     state_color: "#003366",
     state_hover_color: "#3B729F",
-    state_url: "https://simplemaps.com",
+    state_url: "https://www.thejustdatalab.com/",
     border_size: 1.5,
     border_color: "#ffffff",
     all_states_inactive: "no",
@@ -88,8 +88,8 @@ var simplemaps_usmap_mapdata={
     },
     FL: {
       name: "Florida",
-      description: "default",
-      color: "default",
+      description: "click for more info",
+      color: "5f7891",
       hover_color: "default",
       url: "Florida/florida.html",
       inactive: "no"
