@@ -426,7 +426,7 @@ var simplemaps_statemap_mapdata={
     "12101": {
       name: "Pasco",
       description: "Click on Pasco for more information.",
-      color: "default",
+      color: "5f7891",
       hover_color: "default",
       url: "Pasco/single.html"
     },
