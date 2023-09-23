@@ -89,7 +89,7 @@ var simplemaps_usmap_mapdata={
     FL: {
       name: "Florida",
       description: "click for more info",
-      color: "5f7891",
+      color: "default",
       hover_color: "default",
       url: "Florida/florida.html",
       inactive: "no"
@@ -138,7 +138,7 @@ var simplemaps_usmap_mapdata={
     },
     NJ: {
       name: "New Jersey",
-      description: "default",
+      description: "Click for more info",
       color: "default",
       hover_color: "default",
       url: "New Jersey/new-jersey.html",
@@ -187,10 +187,10 @@ var simplemaps_usmap_mapdata={
     },
     IL: {
       name: "Illinois",
-      description: "default",
-      color: "default",
+      description: "Click for more info",
+      color: "#003366",
       hover_color: "default",
-      url: "default"
+      url: "Illinois/illinois.html",
     },
     CT: {
       name: "Connecticut",
@@ -314,10 +314,10 @@ var simplemaps_usmap_mapdata={
     },
     TX: {
       name: "Texas",
-      description: "default",
+      description: "Click for more info",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Texas/texas.html",
     },
     NM: {
       name: "New Mexico",
@@ -384,10 +384,10 @@ var simplemaps_usmap_mapdata={
     },
     AZ: {
       name: "Arizona",
-      description: "default",
+      description: "Click for more info",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "Arizona/arizona.html"
     },
     NV: {
       name: "Nevada",
@@ -412,10 +412,10 @@ var simplemaps_usmap_mapdata={
     },
     CA: {
       name: "California",
-      description: "default",
+      description: "Click for more info",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "California/california.html"
     },
     MI: {
       name: "Michigan",
